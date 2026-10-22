@@ -1,0 +1,18 @@
+﻿(() => {
+  const toggle = document.querySelector('.nav-toggle');
+  const nav = document.querySelector('.site-nav');
+  if (toggle && nav) {
+    toggle.addEventListener('click', () => {
+      const open = nav.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', String(open));
+    });
+    nav.querySelectorAll('a').forEach((link) => link.addEventListener('click', () => nav.classList.remove('open')));
+  }
+  const current = document.body.dataset.page;
+  if (current) {
+    document.querySelectorAll('.site-nav a[data-page]').forEach((link) => {
+      if (link.dataset.page === current) link.classList.add('active');
+    });
+  }
+  document.querySelectorAll('[data-year]').forEach((el) => { el.textContent = new Date().getFullYear(); });
+})();
