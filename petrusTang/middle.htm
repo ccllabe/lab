@@ -1,0 +1,44 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<title>新增網頁3</title>
+<base target="bottom">
+<script language="JavaScript">
+<!--
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+</head>
+
+<body onload="FP_preloadImgs(/*url*/'button8.jpg', /*url*/'button9.jpg', /*url*/'images/button10.jpg', /*url*/'button11.jpg', /*url*/'button12.jpg', /*url*/'button13.jpg', /*url*/'button14.jpg', /*url*/'button15.jpg', /*url*/'button1D.jpg', /*url*/'button1E1.jpg', /*url*/'button29.jpg', /*url*/'button2A.jpg', /*url*/'button2C.jpg', /*url*/'button2D.jpg', /*url*/'buttonB1.jpg', /*url*/'buttonC1.jpg', /*url*/'button10.jpg', /*url*/'button19.jpg')">
+
+<div style="width: 960">
+
+<p align="center"><a target="bottom" href="bottom.htm">
+<img border="0" id="img21" src="button16.jpg" height="20" width="100" alt="Home" fp-style="fp-btn: Border Left 1; fp-font: Arial; fp-font-style: Bold; fp-font-color-normal: #800000; fp-font-color-hover: #FFFF00; fp-font-color-press: #FFFF00" fp-title="Home" onmouseover="FP_swapImg(1,0,/*id*/'img21',/*url*/'images/button10.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img21',/*url*/'button16.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img21',/*url*/'button11.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img21',/*url*/'images/button10.jpg')"></a><a href="Personnel/personnel.htm" target="bottom"><img border="0" id="img30" src="button21.jpg" height="20" width="100" alt="MRBLab" onmouseover="FP_swapImg(1,0,/*id*/'img30',/*url*/'button10.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img30',/*url*/'button21.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img30',/*url*/'button19.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img30',/*url*/'button10.jpg')" fp-style="fp-btn: Border Left 1; fp-font: Arial; fp-font-style: Bold; fp-font-color-normal: #800000; fp-font-color-hover: #FFFF00; fp-font-color-press: #FFFF00" fp-title="MRBLab"></a><a target="bottom" href="Research/research_2021.htm"><img border="0" id="img29" src="buttonA1.jpg" height="20" width="100" alt="Research" fp-style="fp-btn: Border Left 1; fp-font: Arial; fp-font-style: Bold; fp-font-color-normal: #800000; fp-font-color-hover: #FFFF00; fp-font-color-press: #FFFF00" fp-title="Research" onmouseover="FP_swapImg(1,0,/*id*/'img29',/*url*/'buttonB1.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img29',/*url*/'buttonA1.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img29',/*url*/'buttonC1.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img29',/*url*/'buttonB1.jpg')"></a><a target="bottom" href="CV.htm"><img border="0" id="img15" src="button17.jpg" height="20" width="100" alt="CV" onmouseover="FP_swapImg(1,0,/*id*/'img15',/*url*/'button12.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img15',/*url*/'button17.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img15',/*url*/'button13.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img15',/*url*/'button12.jpg')" fp-style="fp-btn: Border Left 1; fp-font: Arial; fp-font-style: Bold; fp-font-color-normal: #800000; fp-font-color-hover: #FFFF00; fp-font-color-press: #FFFF00" fp-title="CV"></a><a href="pub.htm" target="bottom"><img border="0" id="img27" src="button1C.jpg" height="20" width="100" alt="Publications" onmouseover="FP_swapImg(1,0,/*id*/'img27',/*url*/'button1D.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img27',/*url*/'button1C.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img27',/*url*/'button1E1.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img27',/*url*/'button1D.jpg')" fp-style="fp-btn: Border Left 1; fp-font: Arial; fp-font-style: Bold; fp-font-color-normal: #800000; fp-font-color-hover: #FFFF00; fp-font-color-press: #FFFF00" fp-title="Publications"></a></p>
+
+</div>
+
+</body>
+
+</html>
