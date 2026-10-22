@@ -7,6 +7,7 @@
 - [原網站入口頁](index.html)（原本的 `http://biobug.cgu.edu.tw/`）
 - [Chi-Ching Lee's Lab](labWebsite/index.html)（原本的 `/labWebsite/`）
 - [大數據分析積木微學程](bigDataMicrocourse/index.html)（原本的 `/bigDataMicrocourse/`）
+- [TA application information](TAcsie/form.html) (original `/TAcsie/form.php`; static information page only)
 
 GitHub Pages 網址：<https://ccllabe.github.io/lab/>
 
