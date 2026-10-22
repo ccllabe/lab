@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.1.1">
+    <title>Chi-Ching Lee's Lab</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/jumbotron/">
+
+    <!-- Bootstrap core CSS -->
+<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="jumbotron.css" rel="stylesheet">
+  </head>
+  <body>
+
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <a class="navbar-brand" href="index.html">Chi-Ching's LAB</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto">
+      
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">[PI/老師]</a>
+      </li>
+      
+      <li class="nav-item active">
+        <a class="nav-link" target='_blank' href="https://pure.lib.cgu.edu.tw/zh/persons/chi-ching-lee-2/network/">[Research Network]</a>
+      </li>
+      
+	  <li class="nav-item active">
+        <a class="nav-link" target='_blank' href="https://pure.lib.cgu.edu.tw/zh/persons/chi-ching-lee-2/projects/">[Projects]</a>
+      </li>
+      
+      <li class="nav-item active">
+        <a class="nav-link" target='_blank' href="https://pure.lib.cgu.edu.tw/zh/persons/chi-ching-lee-2/publications/">[Publications]</a>
+      </li>      
+      
+      <li class="nav-item active">
+        <a class="nav-link" href="members.html">[Members]</a>
+      </li>      
+      
+      <li class="nav-item active">
+        <a class="nav-link" href="alumni.html">[Alumni]</a>
+      </li>
+      
+      <li class="nav-item active">
+        <a class="nav-link" href="lablife.html">[Life in LAB]</a>
+      </li>
+
+      <li class="nav-item active">
+        <a class="nav-link" href="../bigDataMicrocourse/index.html">[大數據分析積木微學程]</a>
+      </li>
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link active dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">[Courses/課程]</a>
+        <div class="dropdown-menu" aria-labelledby="dropdown01">
+          <a class="dropdown-item" href="course_IT2006.html">工程數學</a>
+          <a class="dropdown-item" href="course_IT2024.html">大數據應用</a>
+		  <a class="dropdown-item" href="course_ITM034.html">資料庫設計</a>
+          <a class="dropdown-item" href="course_ITM150.html">深度學習與Python實作</a>
+          <a class="dropdown-item" href="course_ITM088.html">雲端系統 (資工系)</a>
+          <a class="dropdown-item" href="course_AI4010.html">雲端系統 (人工智慧學系)</a>
+		  
+		  <!--<a class="dropdown-item" href="course_IT4001.php">軟硬體專題(3) (資工系)</a>-->
+          
+		  <!--<a class="dropdown-item" href="course_BH3003.php">資料庫系統與設計 (健康管理學士班)</a>-->
+          <!--<a class="dropdown-item" href="course_TBI2023.php">生物大數據資料視覺化實作</a>-->
+          <!--<a class="dropdown-item" href="course_TFDA.php">20210929 TFDA 課程</a>-->
+          <!--<a class="dropdown-item" href="course_unet.php">20220805 Kaggle database and Cell segmentation </a>-->
+          <!--<a class="dropdown-item" href="course_python.php">2022/8/29-9/2 Python 程式工作坊</a>-->
+          <!--<a class="dropdown-item" href="course_BMD662.php">高通量定序分析</a>-->
+          <!--<a class="dropdown-item" href="course_TBI2023.php">TBI 2024</a>-->
+          <!--<a class="dropdown-item" href="course_BMD516MultiOmic.php">多體學視覺化分析</a>-->
+          <!--<a class="dropdown-item" href="course_TFDA202406.php">TFDA AI於質譜數據上之應用</a>-->
+          <!--<a class="dropdown-item" href="course_KMUH2024.php">資料視覺化與互動實作</a>-->
+          <!--<a class="dropdown-item" href="course_TBI.php">生醫人的AI系列課程 系列一：No-Code AI 初階入門</a>-->
+          <!--<a class="dropdown-item" href="course_Bioinformatics.php">Bioinformatics</a>-->
+        </div>
+      </li>
+      
+      
+    </ul>
+    
+    
+  </div>
+</nav>
+
+<style>
+table, td, th {
+  border: 1px solid #aaa;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  text-align: center;
+}
+</style>
+
+<main role="main">
+
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="jumbotron">
+    <div class="container">
+      <h2 class="display-6">ITM150 Python Programming for Deep Learning / 深度學習與Python實作</h2>
+      <p></p>
+      <p>Class Schedule: Friday 6(14:10) ~ 8(17:00) / 每周五 14:10~17:00 (第6,7,8節)</p>
+	  <br>
+1.Exams and Projects: 50%<br>
+2.Homework and exercise: 40%<br>
+3.Regular performance (classroom behavior): 10% (Perfect attendance base score: 4 points)<br>
+4. Absence without leave will result in a grade deduction depending on the situation.<br>
+未請假缺席視情況扣分<br>
+5. Late attendance (more than 15 minutes late) or absence (missing class without leave) will result in a deduction from the total grade, depending on the situation (Perfect attendance does not guarantee a full score for participation).<br>
+遲到 (15分鐘以上算遲到)、缺席(未請假缺課): 視情況扣總成績 (全勤平時成績不是滿分)<br>
+<br>
+
+<p style='color:red;'>
+We have a Teams group for this course, and all announcements will be posted there. <br>Please install Teams and ensure that you can log in to the school’s Teams group.
+<br>
+我們有Teams群組，課程公告都會發在那邊，請同學先行安裝、確認學校的 Teams群組可以登入。
+</p>
+
+<p style='color:red;width:200px;'>
+Lecture PDF Password: cloud
+</p>
+
+
+<pre style='color:blue'>
+<b>Guidelines for all reports and assignments in this course: (本課程所有報告、作業說明:)</b>
+1. Do not use materials with copyright concerns. <br>(若資料有著作權疑慮，請勿使用)
+2. Only upload reports, source code, and supporting documents to the e-learning platform (no need to upload data). <br>(僅需上傳報告、程式碼、輔助說明文件到 e-learning (資料不需要上傳))
+3. Downloaded data is to be used exclusively for this course. After completing the report, please destroy or delete the data. <br>(下載的資料只做本課程使用，完成報告後請銷毀、刪除資料)
+4. Do not use code from other courses, projects, or laboratory developments. Open-source code can be used but must be properly cited. <br>(請勿使用其他非本課程、專題、專案、實驗室開發的程式碼；開源程式碼可使用但須標明出處)
+
+
+
+</pre>
+
+
+
+    </div>
+  </div>
+
+  <div class="container">
+    <!-- Example row of columns -->
+	<table>
+		<tr>
+		<td style='width:60px;'>Week#</td>
+		<td style='width:140px;'>Date</td>
+		<td style='text-align:left;'>Outline</td>
+		</tr>
+
+		<tr>
+		<td style='width:60px;'>1</td>
+		<td style='width:140px;'>02-27</td>
+		<td style='text-align:left;color:green;'>Holiday<br>
+		<!--<a target='_blank' href='https://forms.gle/p9aCTU51V1XGTzH68'>Pre-class questionnaire 課前問卷</a><br>
+		<a target='_blank' href='https://docs.google.com/document/d/1GBLRXr3gPAR8Kfj75-sobnWaK5u3ysvqs1Kni1vBd6Y/edit?pli=1'>資工系系機房 Cloud Computers of CSIE</a><br>-->
+		</td>
+		</tr>
+
+		<tr>
+		<td style='width:60px;'>2</td>
+		<td style='width:140px;'>03-06</td>
+		<td style='text-align:left;'>Course introduction<br>
+		Hands-on: mazeGame
+		</td>
+		</tr>
+
+		<tr>
+		<td style='width:60px;'>3</td>
+		<td style='width:140px;'>03-13</td>
+		<td style='text-align:left;'>
+		PyTorch Tensor and practice<br>
+		Hands-on: mazeGame
+		<!--
+		<a href='./courses/ITM150/week02.pdf'>Slide</a><br>
+		
+		<a href='./courses/ITM150/week02hw.pdf'>Practice</a><br>
+		<a href='./courses/ITM150/mazeGame.py'>mazeGame.py</a><br>
+
+		
+		PyTorch Autogra and practice<br>
+		<a href='./courses/ITM150/week03.pdf'>Slide</a><br>
+		
+		<a href='./courses/ITM150/week03hw.pdf'>Practice</a><br>
+		
+		<a href='./courses/ITM150/linearRegression.py'>linearRegression.py</a><br>
+		<a href='./courses/ITM150/gradientDescent.py'>gradientDescent.py</a><br>
+		-->
+		</td>
+		</tr>
+
+		<tr>
+		<td style='width:60px;'>4</td>
+		<td style='width:140px;'>03-20</td>
+		<td style='text-align:left;'>Neuron network: ANN, DNN, Activation Function, Loss Function, Backpropagation, Optimizer, tourch.nn<br>
+		<!--
+		<a href='./courses/ITM150/week04.pdf'>Slide</a><br>
+		<a href='./courses/ITM150/week04/iris.data.txt'>iris.data.txt</a><br>
+		<a href='./courses/ITM150/week04/perceptron_predict_iris.py'>perceptron_predict_iris.py</a><br>
+		<a href='./courses/ITM150/week04/perceptron_predict_iris_sklearnPerceptron.py'>perceptron_predict_iris_sklearnPerceptron.py</a><br>
+		<a href='./courses/ITM150/week04/perceptron_predict_digits.py'>perceptron_predict_digits.py</a><br>
+		<a href='./courses/ITM150/week04/perceptron_predict_digits_tanh.py'>perceptron_predict_digits_tanh.py</a><br>
+		<a href='./courses/ITM150/week04/perceptron_predict_digits_sigmoid.py'>perceptron_predict_digits_sigmoid.py</a><br>
+		-->
+		</td>
+		</tr>
+
+
+		<tr>
+		<td style='width:60px;'>5</td>
+		<td style='width:140px;'>03-27</td>
+		<td style='text-align:left;'>Perceptron<br>
+		<!--
+		<a href='./courses/ITM150/week05/week05.pdf'>Slide</a><br>
+		<a href='./courses/ITM150/week05/YearPredictionMSD.csv'>YearPredictionMSD.csv</a><br>
+		<a href='./courses/ITM150/week05/ex04_song.ipynb'>ex04_song.ipynb</a><br>
+		-->
+		</td>
+		</tr>
+
+		<tr>
+		<td style='width:60px;'>6</td>
+		<td style='width:140px;'>04-03</td>
+		<td style='text-align:left;color:green;'>Holiday<br>
+		<!--
+		<a href='./courses/ITM150/week06/week06.pdf'>Slide</a><br>
+		<a href='./courses/ITM150/week06/ex07_mnist_cnn.ipynb'>ex07_mnist_cnn.ipynb</a><br>
+		-->
+		</td>
+		</tr>
+
+
+		<tr>
+		<td style='width:60px;'>7</td>
+		<td style='width:140px;'>04-10</td>
+		<td style='text-align:left;'>Tensorboard and NN<br>
+
+		</td>
+		</tr>
+
+
+		<tr>
+		<td style='width:60px;'>8</td>
+		<td style='width:140px;'>04-17</td>
+		<td style='text-align:left;background-color:yellow;'>Midterm exam<br>
+		<!--
+		<a href='./courses/ITM150/week08_TransferLearning/week08.pdf'>Slide</a><br><br>
+		<a href='./courses/ITM150/week08_TransferLearning/imagenet_classes.csv'>imagenet_classes.csv</a><br>
+		<a href='./courses/ITM150/week08_TransferLearning/dog.jpg'>dog.jpg</a><br>
+		<a href='./courses/ITM150/week08_TransferLearning/data.zip'>data.zip</a><br><br>
+		
+		<a href='./courses/ITM150/week08_TransferLearning/ex08_dog.ipynb'>ex08_dog.ipynb</a><br>
+		<a href='./courses/ITM150/week08_TransferLearning/ex09_bee.ipynb'>ex09_bee.ipynb</a><br>
+		-->
+		</td>
+		</tr>
+
+
+		<tr>
+		<td style='width:60px;'>9</td>
+		<td style='width:140px;'>04-24</td>
+		<td style='text-align:left;'>Convolutional Neural Network<br>
+		<!--
+		<a href='./courses/ITM150/week09_TransferLearning2/week09_transferlearningPart2.pdf'>Slide</a><br>
+		<a href='./courses/ITM150/week09_TransferLearning2/confusion_matrix.ipynb'>confusion_matrix.ipynb</a><br>
+		<a href='./courses/ITM150/week09_TransferLearning2/Image_downloader_from_bing.ipynb'>Image_downloader_from_bing.ipynb</a><br>
+		-->
+		</td>
+		</tr>
+
+
+
+		<tr>
+		<td style='width:60px;'>10</td>
+		<td style='width:140px;'>05-01</td>
+		<td style='text-align:left;color:green;'>Holiday<br>
+		<!--
+		<a href='./courses/ITM150/week10DataAugmentation/week10_DataAugmentation.pdf'>slide</a><br>
+		-->
+		</td>
+		</tr>
+
+
+
+		<tr>
+		<td style='width:60px;'>11</td>
+		<td style='width:140px;'>05-08</td>
+		<td style='text-align:left;'>TransferLearning<br>
+		<!--
+		<a href='./courses/ITM150/week11SSD/week11_SSD.pdf'>slide</a><br>
+		<a href='./courses/ITM150/week11SSD/ssd_detection.ipynb'>ssd_detection.ipynb</a><br>
+		<a href='./courses/ITM150/week11SSD/ssd.pytorch-master.zip'>ssd.pytorch-master.zip</a><br>
+		<a href='./courses/ITM150/week11SSD/VOCdevkit.zip'>VOCdevkit.zip</a><br>
+		-->
+		</td>
+		</tr>
+
+
+
+		<tr>
+		<td style='width:60px;'>12</td>
+		<td style='width:140px;'>05-15</td>
+		<td style='text-align:left;'>TransferLearning (Group exercise)<br>
+		<!--
+		<a href='./courses/ITM150/week12_unet/week12_unet.pdf'>slide</a><br>
+		<a href='./courses/ITM150/week12_unet/unet_segmentation.ipynb'>unet_segmentation.ipynb</a><br>
+		<a href='./courses/ITM150/week12_unet/Pytorch-UNet-master.zip'>Pytorch-UNet-master.zip</a><br>
+		<a href='./courses/ITM150/week12_unet/imgs.zip'>imgs.zip</a><br>
+		<a href='./courses/ITM150/week12_unet/unet_carvana_scale0.5_epoch2.pth'>unet_carvana_scale0.5_epoch2.pth</a><br>
+		-->
+
+		</td>
+		</tr>
+
+
+
+
+		<tr>
+		<td style='width:60px;'>13</td>
+		<td style='width:140px;'>05-22</td>
+		<td style='text-align:left;'>DataAugmentation/Final Project Preparation<br>
+		<!--
+		<a href='./courses/ITM150/week13_Autolabelimg/AutoLabelImg.pdf'>slide</a><br>
+		<a href='./courses/ITM150/week13_Autolabelimg/AutoLabelImg-master.zip'>AutoLabelImg-master.zip</a><br>
+		<a href='./courses/ITM150/week13_Autolabelimg/demo.zip'>demo.zip</a><br>
+		-->
+		</td>
+		</tr>
+
+
+
+		<tr>
+		<td style='width:60px;'>14</td>
+		<td style='width:140px;'>05-29</td>
+		<td style='text-align:left;'>Final Project Preparation<br>
+		<!--
+		<a href='./courses/ITM150/week14_yolo/week14_IoU_mAP.pptx'>slide</a><br>
+		<a href='./courses/ITM150/week14_yolo/yolov5_detection_video.ipynb'>yolov5_detection_video.ipynb</a><br>
+		<a href='./courses/ITM150/week14_yolo/video.mp4'>video.mp4</a><br>
+		-->
+		</td>
+		</tr>
+
+
+		<tr>
+		<td style='width:60px;'>15</td>
+		<td style='width:140px;'>06-05</td>
+		<td style='text-align:left;background-color:yellow;'>Final exam<br>
+
+		</td>
+		</tr>
+
+
+		<tr>
+		<td style='width:60px;'>16</td>
+		<td style='width:140px;'>06-12</td>
+		<td style='text-align:left;color:red;'>Project Presentation<br>
+		<!--
+		<a href='./courses/ITM150/Project.pptx'>Project.pptx</a><br>
+		<a href='https://docs.google.com/spreadsheets/d/1xXNoHchRiIBRjFiT1TMEaA2_uIptbBUZ5Liqu9wyPpg/edit#gid=0'>分組名單</a><br>
+		-->
+
+		</td>
+		</tr>
+
+
+
+
+	<table>
+
+  </div> <!-- /container -->
+
+</main>
+
+<footer class="container">
+  <p>&copy; Chi-Ching's LAB</p>
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+</html>

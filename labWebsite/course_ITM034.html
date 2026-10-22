@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.1.1">
+    <title>Chi-Ching Lee's Lab</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/jumbotron/">
+
+    <!-- Bootstrap core CSS -->
+<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="jumbotron.css" rel="stylesheet">
+  </head>
+  <body>
+
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <a class="navbar-brand" href="index.html">Chi-Ching's LAB</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto">
+      
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">[PI/老師]</a>
+      </li>
+      
+      <li class="nav-item active">
+        <a class="nav-link" target='_blank' href="https://pure.lib.cgu.edu.tw/zh/persons/chi-ching-lee-2/network/">[Research Network]</a>
+      </li>
+      
+	  <li class="nav-item active">
+        <a class="nav-link" target='_blank' href="https://pure.lib.cgu.edu.tw/zh/persons/chi-ching-lee-2/projects/">[Projects]</a>
+      </li>
+      
+      <li class="nav-item active">
+        <a class="nav-link" target='_blank' href="https://pure.lib.cgu.edu.tw/zh/persons/chi-ching-lee-2/publications/">[Publications]</a>
+      </li>      
+      
+      <li class="nav-item active">
+        <a class="nav-link" href="members.html">[Members]</a>
+      </li>      
+      
+      <li class="nav-item active">
+        <a class="nav-link" href="alumni.html">[Alumni]</a>
+      </li>
+      
+      <li class="nav-item active">
+        <a class="nav-link" href="lablife.html">[Life in LAB]</a>
+      </li>
+
+      <li class="nav-item active">
+        <a class="nav-link" href="../bigDataMicrocourse/index.html">[大數據分析積木微學程]</a>
+      </li>
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link active dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">[Courses/課程]</a>
+        <div class="dropdown-menu" aria-labelledby="dropdown01">
+          <a class="dropdown-item" href="course_IT2006.html">工程數學</a>
+          <a class="dropdown-item" href="course_IT2024.html">大數據應用</a>
+		  <a class="dropdown-item" href="course_ITM034.html">資料庫設計</a>
+          <a class="dropdown-item" href="course_ITM150.html">深度學習與Python實作</a>
+          <a class="dropdown-item" href="course_ITM088.html">雲端系統 (資工系)</a>
+          <a class="dropdown-item" href="course_AI4010.html">雲端系統 (人工智慧學系)</a>
+		  
+		  <!--<a class="dropdown-item" href="course_IT4001.php">軟硬體專題(3) (資工系)</a>-->
+          
+		  <!--<a class="dropdown-item" href="course_BH3003.php">資料庫系統與設計 (健康管理學士班)</a>-->
+          <!--<a class="dropdown-item" href="course_TBI2023.php">生物大數據資料視覺化實作</a>-->
+          <!--<a class="dropdown-item" href="course_TFDA.php">20210929 TFDA 課程</a>-->
+          <!--<a class="dropdown-item" href="course_unet.php">20220805 Kaggle database and Cell segmentation </a>-->
+          <!--<a class="dropdown-item" href="course_python.php">2022/8/29-9/2 Python 程式工作坊</a>-->
+          <!--<a class="dropdown-item" href="course_BMD662.php">高通量定序分析</a>-->
+          <!--<a class="dropdown-item" href="course_TBI2023.php">TBI 2024</a>-->
+          <!--<a class="dropdown-item" href="course_BMD516MultiOmic.php">多體學視覺化分析</a>-->
+          <!--<a class="dropdown-item" href="course_TFDA202406.php">TFDA AI於質譜數據上之應用</a>-->
+          <!--<a class="dropdown-item" href="course_KMUH2024.php">資料視覺化與互動實作</a>-->
+          <!--<a class="dropdown-item" href="course_TBI.php">生醫人的AI系列課程 系列一：No-Code AI 初階入門</a>-->
+          <!--<a class="dropdown-item" href="course_Bioinformatics.php">Bioinformatics</a>-->
+        </div>
+      </li>
+      
+      
+    </ul>
+    
+    
+  </div>
+</nav>
+
+<style>
+table, td, th {
+  border: 1px solid #aaa;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  text-align: center;
+}
+</style>
+
+<main role="main">
+
+  <!-- Main jumbotron for a primary marketing message or call to action -->
+  <div class="jumbotron">
+    <div class="container">
+      <h2 class="display-6">ITM034 資料庫設計 (Database Design)</h2>
+      <p>本課程討論資料庫系統之設計原理、方法、及實作技術細節。首先介紹關聯式資料庫概念、結構化查詢語言(SQL)、R語言的資料處理與視覺化、python資料爬蟲；另外，在實務方面則包含各種資料庫管理系統之建置與程式開發。學生必須分組進行期末專題，並上台報告及檢討專題作業。</p>
+      <p>上課時間 每周五 13:10~16:00 (第6,7,8節)</p>
+	  <p>
+
+1. Projects: 60% <br>
+2. 作業成績: 30% <br>
+3. 平時成績(上課表現): 10% (全勤基本分4分)<br>
+4. 未請假缺席視情況扣分</p>
+
+
+<p style='color:blue;'>課程助教: 吳松諭學長</p>
+
+
+<p style='color:red;'>
+我們有Teams群組，課程公告都會發在那邊，請同學先行安裝、確認學校的 Teams群組可以登入。
+</p>
+
+
+
+
+<p style='background-color:yellow;color:red;width:200px;'>
+講義 PDF檔案密碼: cloud
+</p>
+
+
+    </div>
+  </div>
+
+  <div class="container">
+    <!-- Example row of columns -->
+	<table>
+		<tr>
+		<td style='width:60px;'>周次</td>
+		<td style='text-align:left;'>預定進度</td>
+		</tr>
+
+		<tr>
+		<td style='width:60px;'>1</td>
+		<td style='text-align:left;'>
+		Course Introduction and Topic Development
+		課程導入與議題設定
+		</td>
+		</tr>
+
+
+		<tr>
+		<td style='width:60px;'>2</td>
+		<td style='text-align:left;'>
+		SQL基礎與進階
+		Basic and Advanced SQL
+		
+		</td>
+		</tr>
+
+		<tr>
+		<td style='width:60px;'>3</td>
+		<td style='text-align:left;'>
+		SQL基礎與進階
+		Basic and Advanced SQL
+		</td>
+		</tr>
+
+
+		<tr>
+		<td style='width:60px;'>4</td>
+		<td style='text-align:left;'>
+		SQL基礎與進階
+		Basic and Advanced SQL
+
+		</td>
+		</tr>
+
+		<tr>
+		<td style='width:60px;'>5</td>
+		<td style='text-align:left;'>
+		資料建庫
+		Database Development
+		</td>
+		</tr>
+
+
+		<tr>
+		<td style='width:60px;'>6</td>
+		<td style='text-align:left;'>
+		網頁爬蟲與專題開發
+		Web Scraping
+		</td>
+		</tr>
+
+
+
+		<tr>
+		<td style='width:60px;'>7</td>
+		<td style='text-align:left;'>
+		網頁爬蟲與專題開發
+		Web Scraping
+		</td>
+		</tr>
+
+		<tr>
+		<td style='width:60px;'>8</td>
+		<td style='text-align:left;'>
+		數據清洗技巧
+		Data Cleaning Techniques
+		</td>
+		</tr>
+
+		<tr>
+		<td style='width:60px;'>9</td>
+		<td style='text-align:left;background-color:yellow;'>
+		期中報告
+		Midterm project
+		</td>
+		</tr>
+
+
+		<tr>
+		<td style='width:60px;'>10</td>
+		<td style='text-align:left;'>
+		RAG技術與實作
+		RAG Techniques and Hands-on Practice
+		</td>
+		</tr>
+
+
+		<tr>
+		<td style='width:60px;'>11</td>
+		<td style='text-align:left;'>
+		RAG技術與實作
+		RAG Techniques and Hands-on Practice
+		</td>
+		</tr>
+
+		<tr>
+		<td style='width:60px;'>12</td>
+		<td style='text-align:left;'>
+		AI教學小助手專題
+		AI Teaching Assistant Project
+		</td>
+		</tr>
+
+
+		<tr>
+		<td style='width:60px;'>13</td>
+		<td style='text-align:left;'>
+		AI教學小助手專題
+		AI Teaching Assistant Project
+		</td>
+		</tr>
+
+		<tr>
+		<td style='width:60px;'>14</td>
+		<td style='text-align:left;'>
+		AI教學小助手專題
+		AI Teaching Assistant Project
+		</td>
+		</tr>
+
+
+		<tr>
+		<td style='width:60px;'>15</td>
+		<td style='text-align:left;background-color:yellow;'>
+		Project Demonstration(1)
+		成果發表與應用展示(1)
+		</td>
+		</tr>
+
+		<tr>
+		<td style='width:60px;'>16</td>
+		<td style='text-align:left;background-color:yellow;'>
+		Project Demonstration(2)
+		成果發表與應用展示(2)
+      </td>
+		</tr>
+
+		</tr>
+
+	<table>
+
+  </div> <!-- /container -->
+
+</main>
+
+<footer class="container">
+  <p>&copy; Chi-Ching's LAB</p>
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+</html>
